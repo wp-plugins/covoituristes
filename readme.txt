@@ -3,8 +3,8 @@ Contributors: Covoituristes.fr
 Donate link: http://www.covoituristes.fr
 Tags: covoiturage, carpooling, carpool, rideshare, covoituristes
 Requires at least: 2.7.0
-Tested up to: 4.0.1
-Stable tag: 0.1.0
+Tested up to: 4.2.3
+Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -94,6 +94,10 @@ Pour le F.A.Q. et pour SUPPORT svp utilisez l'option 'Support' dans l'applicatio
 4. Le schema, comment ça marche ?
 
 == Changelog ==
+
+= 1.0 =
+* 2015 Aout.
+* 2nd release of this WordPress plugin.
 
 = 0.1 =
 * 2014 Nov.

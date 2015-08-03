@@ -3,7 +3,7 @@
 Plugin Name: Covoituristes.fr
 Plugin URI: http://www.covoituristes.fr
 Description: Covoiturage pour votre site WordPress. Solution 100% intégrée dans votre site. Covoiturage événementiel. Cliquez RÉGLAGES (SETTINGS) dans le Tableau de bord et choissisez covoituristes.
-Version: 0.1.0
+Version: 1.0.0
 Author: LaDauze
 Author URI: http://www.covoituristes.fr
 License:  This plugin is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by
@@ -112,7 +112,7 @@ if(!class_exists('WP_covoiturageclass'))
                 </style>
                 <script>
                     function newaccount(){
-                        var tmpurl = "http://app.applix.fr/openaccount?wp=true&lang=1&aid=cov&mid=ax&mail=" + document.getElementById('mail63636').value + "&id="+ document.getElementById('name63636').value;
+                        var tmpurl = "http://app02.applix.fr/openaccount?wp=true&lang=1&aid=cov&mid=ax&mail=" + document.getElementById('mail63636').value + "&id="+ document.getElementById('name63636').value;
                         var ow = window.open(tmpurl, "owin", 'menubar=no,scrollbars=yes,status=no,width=800,height=600,left=0,top=0');
                         if (!ow){
                             document.getElementById('do63636').href = tmpurl;
@@ -138,7 +138,7 @@ if(!class_exists('WP_covoiturageclass'))
                 <ul>
                 </div>
                 <?php } else { ?>
-                <h3 class="greenbar">Étape 1 : Créer un nouveau compte sur <a href="http://www.covoituristes.fr" target="_blank">www.covoituristes.fr</a></h3>
+                <h3 class="greenbar">Étape 1 : Créer un nouveau compte :</h3>
                 <div class="marleft">
                 <ul id="newaccount63636">
                     Si vous n'avez pas encore un compte vous pouvez entrer votre nom et votre adresse mail ici :
